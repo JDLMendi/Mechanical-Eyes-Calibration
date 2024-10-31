@@ -398,7 +398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 740139945}
   m_Layer: 0
-  m_Name: ====== TESTING ======
+  m_Name: ====== OBJECTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -413,7 +413,7 @@ Transform:
   m_GameObject: {fileID: 740139944}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.94434, y: -0.43594477, z: -3.9630404}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -449,6 +449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 822377248}
+  points: {fileID: 989405447}
   pathPoints:
   - {fileID: 1668448419}
   - {fileID: 1338771198}
@@ -663,6 +664,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b4b2b8c09d160a418b844c5eec1e639, type: 3}
+--- !u!1 &1253970552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1253970553}
+  m_Layer: 0
+  m_Name: ====== SCENE MANAGEMENT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1253970553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253970552}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1338771198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8677593000006502177, guid: 1b4b2b8c09d160a418b844c5eec1e639, type: 3}
@@ -886,7 +918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1734366830}
   m_Layer: 0
-  m_Name: ====== SCENE  ======
+  m_Name: ====== SCENE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -901,7 +933,7 @@ Transform:
   m_GameObject: {fileID: 1734366829}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.94434, y: -0.43594477, z: -3.9630404}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -937,6 +969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTransform: {fileID: 822377250}
+  cameraTransform: {fileID: 0}
   serverIP: 127.0.0.1
   port: 8000
 --- !u!4 &1762171478
@@ -1202,5 +1235,6 @@ SceneRoots:
   - {fileID: 740139945}
   - {fileID: 989405448}
   - {fileID: 822377250}
+  - {fileID: 1253970553}
   - {fileID: 758744705}
   - {fileID: 1762171478}
